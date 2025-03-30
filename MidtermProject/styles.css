@@ -1,0 +1,79 @@
+/*
+Name: Nick Marshall
+Date: 2025-03-22
+Description: External Stylesheet for Personal Portfolio
+*/
+
+/* Global Style */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+/* liquid layout centered */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 1em;
+    border: 1px solid #444;
+}
+
+/* Header Style */
+header {
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #555;
+}
+
+/* Navigation Style */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 1em 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #66b2ff;
+    font-size: 1em;
+}
+
+/* Global hyperlink styles */
+a, a:visited {
+    color: #66b2ff;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #99ccff;
+}
+
+/* Main Content Style */
+main {
+    padding: 1em;
+    line-height: 1.5;
+}
+
+/* Section Style */
+main section {
+    margin-bottom: 1.5em;
+}
+
+/* Footer Style */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2px solid #555; /* adjusted border for dark theme */
+    font-size: 0.8em;
+}
